@@ -1,0 +1,1 @@
+Get-DhcpServerv4Failover -ComputerName DHCP-FAIL-OVER-SERVER-NAME | select partnerserver,mode,state | ft
